@@ -1,0 +1,196 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #191919;
+  font-family: "DotGothic16", sans-serif;
+  /* font-family: "Roboto Mono", sans-serif; */
+  /* font-family: "Roboto"; */
+  overflow-x: hidden;
+  color: white;
+  margin: 0 auto;
+}
+
+.react-parallax {
+  width: 100%;
+}
+
+.header-nav-wrapper {
+  display: inline-flex;
+  justify-content: end;
+  align-items: flex-end;
+  float: right;
+  padding: 20px 20px 0 0;
+}
+
+.header-nav-wrapper a {
+  color: #ffffff;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+}
+
+.header-nav-wrapper a:hover {
+  color: #ffd600;
+}
+
+.header-name {
+  clear: both;
+  color: white;
+  font-size: 8rem;
+  text-align: center;
+  margin: 0 0 6rem 0;
+}
+
+.header-second {
+  margin-top: -20px;
+}
+
+.nav-list-items {
+  list-style-type: none;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: white;
+  margin: 0;
+  padding: 0 0 8px 0;
+}
+
+.nav-list-items li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #191919;
+}
+
+.nav-list-items li a:visited {
+  color: #191919;
+}
+
+.nav-list-items li a:hover {
+  color: #191919;
+  text-decoration: line-through;
+}
+
+.contact-container h1,
+.music-container h1,
+.info-container h1 {
+  font-size: 3.5rem;
+}
+
+.music-container,
+.contact-container,
+.info-container {
+  margin: 3rem 0 6rem 0;
+  text-align: center;
+}
+
+.album-info {
+  font-family: "Roboto Mono", monospace;
+}
+
+.logo-container {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.logo-container a {
+  color: white;
+}
+
+.logo-container a:visited {
+  color: white;
+}
+
+.logo-container a:hover {
+  cursor: pointer;
+}
+
+a#spotify:hover {
+  color: #1db954;
+}
+
+a#itunes:hover {
+  color: #ea4cc0;
+}
+
+a#soundcloud:hover {
+  color: #ff7700;
+}
+
+a#youtube:hover {
+  color: #ff0000;
+}
+
+a#bandcamp:hover {
+  color: #629aa9;
+}
+
+.info-container img,
+.music-container img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 50%;
+  padding-bottom: 1rem;
+}
+
+.info-copy {
+  display: inline-block;
+  text-align: left;
+  width: 90%;
+  font-family: "Roboto Mono", monospace;
+}
+
+.info-copy a,
+.info-copy a:visited {
+  color: #ffd600;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.info-copy a:hover {
+  color: white;
+  text-decoration: line-through;
+}
+
+.contact-container a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ffd600;
+}
+
+.contact-container a:hover {
+  color: white;
+  text-decoration: line-through;
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .header-name {
+    font-size: 12rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-name {
+    font-size: 16rem;
+  }
+  .nav-list-items li a {
+    font-size: 2.2rem;
+  }
+
+  .logo-container {
+    font-size: 3rem;
+  }
+
+  .info-container img,
+  .music-container img {
+    width: 30%;
+  }
+
+  .info-copy {
+    width: 55%;
+  }
+}
