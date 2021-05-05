@@ -13,7 +13,7 @@ const Music = () => (
     <div className="music-container" id="music">
       <h1>music</h1>
       <img
-        src="https://via.placeholder.com/600"
+        src="bb-cover-art.png"
         alt="image of the people in broke bldgs"
       />
       <div className="album-info">
@@ -22,7 +22,7 @@ const Music = () => (
         </p>
         <p>Coming Soon</p>
       </div>
-      <div className="logo-container">
+      {/* <div className="logo-container">
         <a href="#" id="spotify">
           <FontAwesomeIcon icon={faSpotify} />
         </a>
@@ -38,7 +38,7 @@ const Music = () => (
         <a href="#" id="bandcamp">
           <FontAwesomeIcon icon={faBandcamp} />
         </a>
-      </div>
+      </div> */}
     </div>
   </>
 );

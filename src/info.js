@@ -49,18 +49,20 @@ const Info = () => (
           </a>{" "}
           — pulls various elements from their record collection, drawing from
           electro, post-punk and minimalism. The music both honors and
-          reinterprets the couple’s influences over the years – from Dischord
-          Records to ZYX Music, from the circuitry of a Moog to the propulsion
-          of Brazilian hand drums.
+          reinterprets the couple’s influences over the years – from GSL to ZYX
+          Music, from the circuitry of a Moog to the propulsion of Brazilian
+          hand drums.
         </p>
         <p>
-          The album also channels the hope and anger of the moment we’re living
-          through, and the estrangement that comes when the world shuts down.
-          The vocals are blurry, distorted, fucked with. The synthesizers dark,
-          dizzying. The percussion somewhere between a party and a gut punch.{" "}
+          The vocals are blurry, distorted, fucked-with. The synthesizers dark,
+          dizzying. The percussion somewhere between a party and a gut punch.
+          The album embodies the anger of the moment we’re living through and
+          the estrangement that comes when the world shuts down. But it also
+          reflects the hope of rebirth — resurrecting what was once thought dead
+          and building up from what was broken.{" "}
         </p>
         <p>
-          <i>Resurrect Dead</i> was produced and recorded by{" "}
+          <i>Resurrect Dead</i> was written, recorded and produced by{" "}
           <strong>BROKE BLDGS</strong> with additional production, mixing and
           mastering by Matt Coogan (
           <a href="https://www.oneera.net/" target="_blank">

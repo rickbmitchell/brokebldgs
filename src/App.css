@@ -133,8 +133,13 @@ a#bandcamp:hover {
   display: block;
   margin: 0 auto;
   height: auto;
-  width: 50%;
+  width: 70%;
   padding-bottom: 1rem;
+}
+
+.music-container img {
+  border: 1px white solid;
+  padding-bottom: 0;
 }
 
 .info-copy {
@@ -160,11 +165,20 @@ a#bandcamp:hover {
   font-size: 2rem;
   text-decoration: none;
   color: #ffd600;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
 }
 
 .contact-container a:hover {
   color: white;
   text-decoration: line-through;
+}
+
+@media (min-width: 769px) and (max-width: 1080px) {
+  .info-container img,
+  .music-container img {
+    width: 45%;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 767px) {
@@ -185,12 +199,14 @@ a#bandcamp:hover {
     font-size: 3rem;
   }
 
+  .info-copy {
+    width: 55%;
+  }
+}
+
+@media (min-width: 1081px) {
   .info-container img,
   .music-container img {
     width: 30%;
-  }
-
-  .info-copy {
-    width: 55%;
   }
 }
