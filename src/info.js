@@ -4,7 +4,7 @@ const Info = () => (
   <>
     <div className="info-container" id="info">
       <h1>info</h1>
-      <img src="./bb-heads-sm.jpg" alt="image of the people in broke bldgs" />
+      <img src="./bb-room.jpg" alt="image of the people in broke bldgs" />
       <div className="info-copy">
         <p>
           <strong>BROKE BLDGS</strong> is a collaboration between musician Rick
