@@ -84,13 +84,23 @@ body {
   text-align: center;
 }
 
+.singles-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10%;
+}
+
+.singles-container .singles-cover img {
+  width: 50%;
+}
+
 .album-info,
 .single-info {
   font-family: "Roboto Mono", monospace;
 }
 
 .single-info {
-  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 .logo-container {
@@ -133,11 +143,6 @@ a#bandcamp:hover {
   color: #629aa9;
 }
 
-#crushed {
-  color: #ff007f;
-  font-weight: 600;
-}
-
 .info-container img,
 .music-container img {
   display: block;
@@ -160,13 +165,16 @@ a#bandcamp:hover {
 }
 
 .info-copy a,
-.info-copy a:visited {
+.info-copy a:visited,
+.singles-container a,
+.singles-container a:visited {
   color: #ffd600;
   text-decoration: none;
   font-weight: 600;
 }
 
-.info-copy a:hover {
+.info-copy a:hover,
+.singles-container a:hover {
   color: white;
   text-decoration: line-through;
 }
@@ -192,6 +200,18 @@ a#bandcamp:hover {
 .contact-container a:hover {
   color: white;
   text-decoration: line-through;
+}
+
+@media (max-width: 767px) {
+  .singles-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .singles-container .singles-cover img {
+    width: 55%;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1080px) {
