@@ -12,18 +12,32 @@ const Music = () => (
   <>
     <div className="music-container" id="music">
       <h1>music</h1>
-      <img src="bb-cover-art.png" alt="image of the people in broke bldgs" />
+      <div className="singles-container">
+        <div className="singles-cover">
+          <img src="bb-cover-co.jpg" alt="Crushed Out cover" />
+          <div className="single-info">
+            <p>
+              <i id="crushed">Crushed Out</i> — Debut Single
+            </p>
+            <a href="https://brokebldgs.bandcamp.com/track/crushed-out-2" target="_blank">Out Now</a>
+          </div>
+        </div>
+        <div className="singles-cover">
+          <img src="bb-cover-rc.jpg" alt="Razor Candy cover" />
+          <div className="single-info">
+            <p>
+              <i id="crushed">Razor Candy</i> — Single #2
+            </p>
+            <a href="https://brokebldgs.bandcamp.com/track/razor-candy-2" target="_blank">Out Now</a>
+          </div>
+        </div>
+      </div>
+      <img src="bb-cover-art.png" alt="Resurrect Dead album cover" />
       <div className="album-info">
         <p>
           <i>Resurrect Dead</i> — Debut Album
         </p>
         <p>Coming Soon</p>
-      </div>
-      <div className="single-info">
-        <p>
-          <i id="crushed">Crushed Out</i> — Debut Single
-        </p>
-        <p>Out Now</p>
       </div>
       <div className="logo-container">
         <a
