@@ -37,8 +37,16 @@ const Music = () => (
         <p>
           <i>Resurrect Dead</i> — Debut Album
         </p>
-        <p>Coming Soon</p>
+        <p>Released October 8th</p>
       </div>
+      <div className="video-container">
+      <iframe className="co-video" src="https://www.youtube.com/embed/PIXoG_ZH26M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      <div className="single-info">
+            <p>
+              <i id="crushed">Crushed Out</i> — Video
+            </p>
+          </div>
+          </div>
       <div className="logo-container">
         <a
           href="https://open.spotify.com/artist/5jn5ThEj7cSNU5muBWSOvy"
