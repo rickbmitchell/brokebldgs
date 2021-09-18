@@ -19,7 +19,12 @@ const Music = () => (
             <p>
               <i id="crushed">Crushed Out</i> — Debut Single
             </p>
-            <a href="https://brokebldgs.bandcamp.com/track/crushed-out-2" target="_blank">Out Now</a>
+            <a
+              href="https://brokebldgs.bandcamp.com/track/crushed-out-2"
+              target="_blank"
+            >
+              Out Now
+            </a>
           </div>
         </div>
         <div className="singles-cover">
@@ -28,7 +33,12 @@ const Music = () => (
             <p>
               <i id="crushed">Razor Candy</i> — Single #2
             </p>
-            <a href="https://brokebldgs.bandcamp.com/track/razor-candy-2" target="_blank">Out Now</a>
+            <a
+              href="https://brokebldgs.bandcamp.com/track/razor-candy-2"
+              target="_blank"
+            >
+              Out Now
+            </a>
           </div>
         </div>
       </div>
@@ -37,7 +47,22 @@ const Music = () => (
         <p>
           <i>Resurrect Dead</i> — Debut Album
         </p>
-        <p>Coming Soon</p>
+        <p>Released October 8th</p>
+      </div>
+      <div className="video-container">
+        <iframe
+          className="co-video"
+          src="https://www.youtube.com/embed/PIXoG_ZH26M"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        <div className="single-info">
+          <p>
+            <i id="crushed">Crushed Out</i> — Video
+          </p>
+        </div>
       </div>
       <div className="logo-container">
         <a
@@ -47,7 +72,11 @@ const Music = () => (
         >
           <FontAwesomeIcon icon={faSpotify} />
         </a>
-        <a href="https://music.apple.com/us/artist/broke-bldgs/1576904673" target="_blank" id="itunes">
+        <a
+          href="https://music.apple.com/us/artist/broke-bldgs/1576904673"
+          target="_blank"
+          id="itunes"
+        >
           <FontAwesomeIcon icon={faItunes} />
         </a>
         <a
