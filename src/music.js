@@ -47,7 +47,12 @@ const Music = () => (
         <p>
           <i>Resurrect Dead</i> — Debut Album
         </p>
-        <p>Released October 8th</p>
+        <a
+          href="https://brokebldgs.bandcamp.com/album/resurrect-dead"
+          target="_blank"
+        >
+          Out Now
+        </a>
       </div>
       <div className="video-container">
         <iframe

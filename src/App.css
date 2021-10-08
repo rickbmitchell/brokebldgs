@@ -174,14 +174,17 @@ a#bandcamp:hover {
 .info-copy a,
 .info-copy a:visited,
 .singles-container a,
-.singles-container a:visited {
+.singles-container a:visited,
+.album-info a,
+.album-info a:visited {
   color: #ffd600;
   text-decoration: none;
   font-weight: 600;
 }
 
 .info-copy a:hover,
-.singles-container a:hover {
+.singles-container a:hover,
+.album-info a:hover {
   color: white;
   text-decoration: line-through;
 }
@@ -262,6 +265,6 @@ a#bandcamp:hover {
   .co-video {
     width: 75%;
     height: 16rem;
-    margin: 5rem 0;
+    margin: 5rem 0 0 0;
   }
 }
